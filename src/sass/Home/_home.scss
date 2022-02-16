@@ -1,0 +1,37 @@
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    .content {
+        text-align: center;
+        position: relative;
+        z-index: 10;
+        img {
+            height: 25rem;
+            width: 25rem;
+            border-radius: 590%;
+            object-fit: cover;
+            border: 1rem solid var(--green);
+
+        }
+        h3 {
+            font-size: 4rem;
+            color: #fff;
+            text-transform: uppercase;
+
+            span {
+                font-size: 4rem;
+                color: var(--green);
+                text-transform: uppercase;
+            }
+
+        }
+
+        p {
+            color: #fff;
+            font-size: 2.5rem;
+            line-height: 2;
+        }
+    }
+}
